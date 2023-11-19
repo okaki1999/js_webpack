@@ -5,6 +5,8 @@ appNames.forEach(appName => {
     const menu = document.createElement('a');
     menu.classList.add('nav-menu');
     menu.textContent = appName.toUpperCase();
-
+    menu.addEventListener('click', () => {
+        
+    })
     nav.appendChild(menu);
 })
